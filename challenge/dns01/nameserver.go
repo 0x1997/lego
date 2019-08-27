@@ -22,8 +22,12 @@ var (
 )
 
 var defaultNameservers = []string{
-	"google-public-dns-a.google.com:53",
-	"google-public-dns-b.google.com:53",
+	"119.29.29.29:53",
+	"223.5.5.5:53",
+	"223.6.6.6:53",
+	"114.114.114.114:53",
+	"114.114.115.115:53",
+	"1.1.1.1:53",
 }
 
 // recursiveNameservers are used to pre-check DNS propagation.
